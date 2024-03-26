@@ -1,0 +1,1113 @@
+/*Phone*/
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family: 'Inter';
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+   
+  }
+  header {
+    display: flex;
+    background-color: rgb(26 26 26);
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    padding-left: 8px;
+    padding-right: 8px;
+    z-index: 1000;
+  }
+  
+  .gjirafa-logo {
+    width: 80px;
+    cursor: pointer;
+  }
+  .middle {
+    display: flex;
+    align-items: center;
+  }
+  input {
+    display: block;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      border-color: #e2e2e2;
+    
+    background-color: #4b4b4b;
+    border: none;
+  }
+  .search-button {
+     background-color: #4b4b4b;
+     border: none;
+     cursor: pointer;
+     height: 40px;
+     border-radius: 3px;
+     margin-left: -5px;
+  }
+  input::placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    padding: 0px 5px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  .login-icon {
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    padding: 0px 5px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  .favorite-icon {
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+
+  .banner {
+    padding: 0;
+    width: 100%;
+    height: 344px;
+    margin-top: 55px;
+    cursor: pointer;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .giveaway {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: -35px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin: 30px 10px;
+    
+  }
+  .flex {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px 20px 10px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+    background-color: rgb(230 82 40);
+    color: white;
+    border-radius: 0.25rem;
+    height: 19px;
+    width: 2.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .new {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .hours {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .product-name {
+    color: rgb(44 44 44);
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .product-price {
+    color: rgb(44 44 44);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .first-price {
+    color: rgb(110 110 110);
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 0;
+    margin-bottom: -10px;
+  }
+  .tvsh {
+    color: rgb(110 110 110);
+    font-size: 0.75em;
+    padding-top: 15px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  .buy-button {
+    border: none;
+    background-color: rgb(247 247 247);
+    color: rgb(44, 44, 44);
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  
+  .fav-button {
+    border: none;
+    background-color: rgb(247 247 247);
+    color: rgb(44, 44, 44);
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  .product1 {
+    margin-bottom: 2px;
+  }
+  .product2 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 22px;
+  }
+  
+  .product4 {
+    margin-top: 33px;
+  }
+  
+  .product5 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+  }
+  
+  .product6 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 21px;
+  }
+  
+  .product8 {
+    margin-top: 20px;
+  }
+  .product9 {
+    margin-top: 20px;
+  }
+  
+  .product10 {
+    margin-top: 33px;
+    margin-bottom: 10px;
+  }
+  
+  .product11 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .product12 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  .product13 {
+    margin-bottom: 20px;
+  }
+  
+  .product14 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  .product16 {
+    margin-top: 10px;
+    margin-bottom: 33px;
+  }
+  .product17-tvsh {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: rgb(110 110 110);
+    font-size: 0.75em;
+    padding-top: 15px;
+  }
+  
+  .product20 {
+    margin-top: 23px;
+  }
+  
+  .product21 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .show-more {
+    border: 1px solid rgb(230 82 40);
+    color: rgb(230 82 40);
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color:  rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  .sponsors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .apple ,
+  .samsung ,
+  .msi,
+  .steelseries,
+  .lenovo,
+  .zowie {
+    width: 130px;
+  }
+
+  .gjirafa-logo2 {
+    width: 150px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px 10px 10px 10px;
+  
+    .social {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .link {
+      display: block;
+      text-decoration: none;
+      font-size: .875rem;
+      color: rgb(116, 116, 116);
+      margin: 10px 0px ;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .info {
+      font-size: .875rem;
+      color: rgb(117, 117, 117);
+      margin: 10px 0px ;
+    }
+  }
+  .first {
+    margin-right: 100px;
+  }
+  .second {
+    margin-left: 30px;
+  }
+  
+}
+  
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+  body {
+    font-family: 'Inter';
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+   
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26 26 26);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    z-index: 1000;
+  }
+  
+  .gjirafa-logo {
+    width: 110px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .middle {
+    display: flex;
+    align-items: center;
+  }
+  input {
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      border-color: #e2e2e2;
+    
+    background-color: #4b4b4b;
+    border: none;
+    
+    margin: 10px 0px;
+    border-radius: 4px;
+    padding-left: 6px;
+    
+  }
+  .search-button {
+     background-color: #4b4b4b;
+     border: none;
+     margin-left: -35px;
+     cursor: pointer;
+  }
+  input::placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .cart-icon {
+    cursor: pointer;
+    padding: 16px 8px;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  .login-icon {
+    padding: 16px 8px;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  .favorite-icon {
+    cursor: pointer;
+    padding: 16px 8px;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+
+  .banner {
+    width: 100%;
+    height: 344px;
+    margin-top: 55px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .giveaway {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: -35px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    margin-top: 30px;
+    margin: 30px 30px;
+    
+  }
+  .flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+    background-color: rgb(230 82 40);
+    color: white;
+    border-radius: 0.25rem;
+    height: 19px;
+    width: 2.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .new {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .hours {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .product-name {
+    color: rgb(44 44 44);
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .product-price {
+    color: rgb(44 44 44);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .first-price {
+    color: rgb(110 110 110);
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 0;
+    margin-bottom: -10px;
+  }
+  .tvsh {
+    color: rgb(110 110 110);
+    font-size: 0.75em;
+    padding-top: 15px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  .buy-button {
+    border: none;
+    background-color: rgb(247 247 247);
+    color: rgb(44, 44, 44);
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  
+  .fav-button {
+    border: none;
+    background-color: rgb(247 247 247);
+    color: rgb(44, 44, 44);
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  .product1 {
+    margin-bottom: 2px;
+  }
+  .product2 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 22px;
+  }
+  
+  .product4 {
+    margin-top: 33px;
+  }
+  
+  .product5 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+  }
+  
+  .product6 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 21px;
+  }
+  
+  .product8 {
+    margin-top: 20px;
+  }
+  .product9 {
+    margin-top: 20px;
+  }
+  
+  .product10 {
+    margin-top: 33px;
+    margin-bottom: 10px;
+  }
+  
+  .product11 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .product12 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  .product13 {
+    margin-bottom: 20px;
+  }
+  
+  .product14 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  .product16 {
+    margin-top: 10px;
+    margin-bottom: 33px;
+  }
+  .product17-tvsh {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: rgb(110 110 110);
+    font-size: 0.75em;
+    padding-top: 15px;
+  }
+  
+  .product20 {
+    margin-top: 23px;
+  }
+  
+  .product21 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .show-more {
+    border: 1px solid rgb(230 82 40);
+    color: rgb(230 82 40);
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color:  rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  .sponsors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 3px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 0px 10px 50px 10px;
+  }
+  .apple ,
+  .samsung ,
+  .msi,
+  .steelseries,
+  .lenovo,
+  .zowie {
+    width: 130px;
+  }
+
+  .gjirafa-logo2 {
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px 20px 10px 20px;
+  
+    .social {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .link {
+      display: block;
+      text-decoration: none;
+      font-size: .875rem;
+      color: rgb(116, 116, 116);
+      margin: 10px 0px ;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .info {
+      font-size: .875rem;
+      color: rgb(117, 117, 117);
+      margin: 10px 0px ;
+    }
+  }
+  .first {
+    margin-right: 100px;
+  }
+  .second {
+    margin-left: 30px;
+  }
+  
+}
+  
+/*Destop*/
+@media screen and (min-width: 1350px) {
+  body {
+    font-family: 'Inter';
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Header*/
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26 26 26);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    z-index: 1000;
+  }
+  
+  .gjirafa-logo {
+    width: 110px;
+    margin-left: 315px;
+    cursor: pointer;
+  }
+  .middle {
+    display: flex;
+    align-items: center;
+  }
+  input {
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      border-color: #e2e2e2;
+    
+    background-color: #4b4b4b;
+    border: none;
+    
+    margin: 10px 0px;
+    border-radius: 4px;
+    padding-left: 6px;
+    
+  }
+  .search-button {
+     background-color: #4b4b4b;
+     border: none;
+     margin-left: -35px;
+     cursor: pointer;
+  }
+  input::placeholder {
+    color: #cecece;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Inter;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    margin-right: 315px;
+    cursor: pointer;
+    padding: 16px 8px;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  .login-icon {
+    padding: 16px 8px;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  .favorite-icon {
+    cursor: pointer;
+    padding: 16px 8px;
+    color: white;
+    border-radius: 6px;
+    &:hover {
+      background-color: rgb(53, 53, 53);
+    }
+  }
+  
+  
+  /*Section1*/
+  .banner {
+    margin-top: 30px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .giveaway {
+    width: 67%;
+    margin: -25px 315px 0px 312px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  
+  
+  /*Main*/
+  .grid {
+    display: grid;
+    margin: 10px 315px;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 20px;
+    margin-top: 30px;
+    
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .discount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+    background-color: rgb(230 82 40);
+    color: white;
+    border-radius: 0.25rem;
+    height: 19px;
+    width: 2.5rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .new {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .hours {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .product-name {
+    color: rgb(44 44 44);
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 0px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .product-price {
+    color: rgb(44 44 44);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  .first-price {
+    color: rgb(110 110 110);
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 0;
+    margin-bottom: -10px;
+  }
+  .tvsh {
+    color: rgb(110 110 110);
+    font-size: 0.75em;
+    padding-top: 15px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  .buy-button {
+    border: none;
+    background-color: rgb(247 247 247);
+    color: rgb(44, 44, 44);
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  
+  .fav-button {
+    border: none;
+    background-color: rgb(247 247 247);
+    color: rgb(44, 44, 44);
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  .product1 {
+    margin-bottom: 2px;
+  }
+  .product2 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 22px;
+  }
+  
+  .product4 {
+    margin-top: 33px;
+  }
+  
+  .product5 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+  }
+  
+  .product6 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 21px;
+  }
+  
+  .product8 {
+    margin-top: 20px;
+  }
+  .product9 {
+    margin-top: 20px;
+  }
+  
+  .product10 {
+    margin-top: 33px;
+    margin-bottom: 10px;
+  }
+  
+  .product11 {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  
+  .product12 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  .product13 {
+    margin-bottom: 20px;
+  }
+  
+  .product14 {
+    width: 190px;
+    height: 190px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  .product16 {
+    margin-top: 10px;
+    margin-bottom: 33px;
+  }
+  .product17-tvsh {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: rgb(110 110 110);
+    font-size: 0.75em;
+    padding-top: 15px;
+  }
+  
+  .product20 {
+    margin-top: 23px;
+  }
+  
+  .product21 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  /*Section2 */
+  .section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .show-more {
+    border: 1px solid rgb(230 82 40);
+    color: rgb(230 82 40);
+    padding: 12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color:  rgb(248, 89, 32);
+      color: white;
+    }
+  }
+  /*SPONSORS*/
+  .sponsors {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0px 315px;
+    padding: 3px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  
+  .gjirafa-logo2 {
+    width: 200px;
+    margin: 0px 315px;
+  }
+  
+  
+  /*FOOTER*/
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0px 315px;
+  
+    .social {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .link {
+      display: block;
+      text-decoration: none;
+      font-size: .875rem;
+      color: rgb(116, 116, 116);
+      margin: 10px 0px ;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .info {
+      font-size: .875rem;
+      color: rgb(117, 117, 117);
+      margin: 10px 0px ;
+    }
+  }
+  .first {
+    margin-right: 100px;
+  }
+  .second {
+    margin-left: 30px;
+  }
+  
+}
+
